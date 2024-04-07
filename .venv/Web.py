@@ -4,7 +4,6 @@ import functions
 # Can also deploy using heruko just as streamlit.
 
 todos = functions.get_todos()
-
 st.set_page_config(layout="wide")
 
 def add_todo():
